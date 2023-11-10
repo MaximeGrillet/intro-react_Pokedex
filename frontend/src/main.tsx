@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 import PokedexView from './views/PokedexView'
 import PokedexDetailsView from './views/PokemonDetailsView'
 
-import './styles/main.scss'
+import './assets/styles/base/main.scss'
 
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 

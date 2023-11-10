@@ -1,9 +1,9 @@
 import Header from "./Header"
 import charizardImg from '../assets/images/Charizard_SSBU.png'
 
-import '../styles/heroSection.scss'
+import '../assets/styles/components/heroSection.scss'
 
-import { Link, useNavigate } from "react-router-dom"
+import {useNavigate } from "react-router-dom"
 import PokemonType from "./PokemonType"
 
 const HeroSection = () => {
@@ -12,7 +12,6 @@ const HeroSection = () => {
     const navigateToPokemonDetails = () => {
         navigate('/pokemon/1')
     }
-
 
     return(
         <div className="hero-section">
@@ -24,6 +23,9 @@ const HeroSection = () => {
                         <div className="hero-data-types">
                             <PokemonType type="fire" />
                             <PokemonType type="flying" />
+                            <PokemonType type="poison" />
+                            <PokemonType type="grass" />
+                            <PokemonType type="water" />
                         </div>
                         <h1 className="hero-data-name">Charizard</h1>
                         <p className="hero-data-description">

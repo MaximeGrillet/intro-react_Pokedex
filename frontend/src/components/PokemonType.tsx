@@ -1,4 +1,4 @@
-import '../styles/pokemonType.scss'
+import '../assets/styles/components/pokemonType.scss'
 
 type PokemonTypeProps = {
     type: string

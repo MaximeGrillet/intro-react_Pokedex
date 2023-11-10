@@ -1,5 +1,5 @@
 import LogoPokemon from '../assets/images/logo-pokemon.svg'
-import '../styles/layouts/header.scss'
+import '../assets/styles/layouts/header.scss'
 
 const Header = () => {
     return(
